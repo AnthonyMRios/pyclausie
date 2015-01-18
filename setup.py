@@ -11,6 +11,11 @@ setup(name='pyclausie',
       url='https://github.com/AnthonyMRios/pyclausie',
       author='Anthony Rios',
       author_email='anthonymrios@gmail.com',
-      license='MIT',
+      classifiers=[
+          'Intended Audience :: Science/Research',
+          'License :: OSI Approved :: Apache Software License',
+          'Natural Language :: English'
+      ],
+      license='Apache 2.0',
       packages=['pyclausie'],
       zip_safe=False)

@@ -27,7 +27,7 @@ method. This method takes a list of sentences as input and will return
 a list of Triple objects.
 ::
     >>> sents = ['I learned that the 2012 Sasquatch music festival is '
-                 'scheduled for May 25th until May 28.']
+    ...          'scheduled for May 25th until May 28.']
     >>> triples = cl.extract_triples(sents)
     >>> for triple in triples:
     ...     print triple
