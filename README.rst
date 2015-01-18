@@ -7,7 +7,7 @@ This will take a list of sentences and return a list of triples.
 
 How to Install
 --------------
-::
+
     >>> pip install pyclausie
 
 Example Usage
@@ -41,6 +41,8 @@ If you wish to get the confidence score you should pass the parameter
 
 More Information
 ----------------
+
+Licensed under `Apache 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_.
 
 Written by Anthony Rios
 
