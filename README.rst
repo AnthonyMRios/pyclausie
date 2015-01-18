@@ -4,7 +4,7 @@ pyclausie
 How to Install
 --------------
 
->>> pip install pyclausie
+    >>> pip install pyclausie
 
 Example Usage
 -------------
