@@ -17,7 +17,7 @@ from .ClausIE import ClausIE
 from .Triples import Corpus
 
 class SubprocessBackend(ClausIE):
-    """ Interface to ClausIE using subprocess. This creats a java call
+    """ Interface to ClausIE using subprocess. This creates a java call
         to clausie.jar.
     """
     def __init__(self, jar_filename=None, download_if_missing=False,

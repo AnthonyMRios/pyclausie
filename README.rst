@@ -8,7 +8,7 @@ This will take a list of sentences and return a list of triples.
 How to Install
 --------------
 
-    >>> pip install pyclausie
+>>> pip install pyclausie
 
 Example Usage
 -------------

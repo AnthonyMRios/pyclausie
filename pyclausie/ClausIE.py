@@ -46,7 +46,6 @@ class ClausIE:
         if self.jar_filename is None:
             if version is None:
                 version = DEFAULT_CLAUSIE_VERSION
-            #filename = 'clausie-%s.zip' % version
             filename = 'clausie/clausie.jar'
             self.jar_filename = self.setup_and_get_default_path(filename)
             if download_if_missing:
