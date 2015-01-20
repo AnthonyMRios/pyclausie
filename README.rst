@@ -8,7 +8,7 @@ This will take a list of sentences and return a list of triples.
 How to Install
 --------------
 
->>> pip install pyclausie
+>>> python setup.py install
 
 Example Usage
 -------------
@@ -45,9 +45,3 @@ More Information
 Licensed under `Apache 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_.
 
 Written by Anthony Rios
-
-Bug reports and feature requests:
-`Github Issue Tracker <https://github.com/AnthonyMRios/pyclausie/issues>`_.
-
-Some code was modified from David McClosky (`homepage <http://nlp.stanford.edu/~mcclosky/>`_, `code <http://github.com/dmcc>`_)
-project PyStanfordDependencies.
