@@ -87,7 +87,7 @@ class ClausIE:
     def get_jar_url(version=None):
         if version is None:
             version = DEFAULT_CLAUSIE_VERSION 
-        if not isinstance(version, basestring):
+        if not isinstance(version, str):
             raise TypeError("Version must be a string or None (got %r)." %
                             version)
         filename = 'clausie-%s.zip' % version
